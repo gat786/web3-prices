@@ -1,0 +1,9 @@
+export const ETH_RPC_ENDPOINT = process.env.ETHEREUM_RPC_ENDPOINT ?? "";
+export const BSC_RPC_ENDPOINT = process.env.BSC_RPC_ENDPOINT ?? "";
+export const POLYGON_RPC_ENDPOINT = process.env.POLYGON_RPC_ENDPOINT ?? "";
+
+export default {
+    ETH_RPC_ENDPOINT: ETH_RPC_ENDPOINT,
+    BSC_RPC_ENDPOINT: BSC_RPC_ENDPOINT,
+    POLYGON_RPC_ENDPOINT: POLYGON_RPC_ENDPOINT
+}
